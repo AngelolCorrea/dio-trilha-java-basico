@@ -1,0 +1,11 @@
+import java.sql.SQLOutput;
+
+public class ContadorCarneirinho { //Exemplo FOR
+    public static void main(String[] args) {
+        for (int carneirinhos = 1; carneirinhos <= 20; carneirinhos ++){
+        System.out.println(carneirinhos +" - carneirinho(s)");
+            }
+        System.out.println("Joaozinho dormiu");
+        }
+}
+
