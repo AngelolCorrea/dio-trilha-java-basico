@@ -8,9 +8,13 @@ public class CondicionalSimples {
         System.out.println("Qual valor deseja sacar? ");
         double valorSolicitado = scanner.nextDouble();
 
-            if (valorSolicitado < saldo)
-                saldo= saldo - valorSolicitado;
-                System.out.println("Seu novo saldo é: " +saldo);
+            if (valorSolicitado < saldo) {
+                saldo = saldo - valorSolicitado;
+                System.out.println("Seu novo saldo é: " + saldo);
+                //implementação de composta
+            }else
+                System.out.println("Saldo insuficiente");
+
 
 
     }
